@@ -20,6 +20,14 @@
   </properties>
 
   <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-runner -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-runner</artifactId>
+    <version>11.0.6</version>
+    <scope>test</scope>
+</dependency>
+
   	<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
   	<dependency>
 	    <groupId>org.postgresql</groupId>
